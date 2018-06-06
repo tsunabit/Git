@@ -12,8 +12,7 @@
 |git push -u origin master|masterブランチへ送信|
 |git push -u origin feature-D|masterブランチ以外のブランチへ送信|
 |git clone|リモートリポジトリを取得|
-|git checkout -b feature-A origin/feature-A|リモートの特定ブランチをチェックアウトする。git cloneコマンド実行直後はローカルリポジトリだけでなく、リモートリポジトリも含んだ状態。  
-ただし、ローカルには存在しないためローカルにチェクアウトするには明示的にチェックアウトが必要。|
+|git checkout -b feature-A origin/feature-A|リモートの特定ブランチをチェックアウトする。git cloneコマンド実行直後はローカルリポジトリだけでなく、リモートリポジトリも含んだ状態。ただし、ローカルには存在しないためローカルにチェクアウトするには明示的にチェックアウトが必要。|
 |git pull|最新のリモートリポジトリブランチを取得|
 |git pull origin feature-A|最新のリモートリポジトリブランチを取得|
 
@@ -59,6 +58,7 @@ git commitコマンド実行しエディタが起動した後にコミットを�
 |コマンド|説明|
 |:--|:--|
 |git reset|歴史を戻る|
+|git reset --hard HEAD^|前のコミットを取り消す。ワーキングツリー、インデックス、HEAD全てを1つ前に戻す|
 |git rebase -i|歴史を押しつぶして改変|
 |git remote add|リモートリポジトリを登録|
 |git remote add|リモートリポジトリを登録|
