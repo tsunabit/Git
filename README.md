@@ -10,7 +10,7 @@
 |git commit -m "コメント"|1行のコミットコメントを記述する|
 |git push|リモートリポジトリへ送信|
 |git push -u origin master|masterブランチへ送信|
-|git push -u origin feature-D|masterブランチ以外のブランチへ送信|
+|git push -u origin feature-D<br>または<br>git push --set-upstream origin feature-D|masterブランチ以外のブランチへ送信|
 |git clone|リモートリポジトリを取得|
 |git checkout -b feature-A origin/feature-A|リモートの特定ブランチをチェックアウトする。git cloneコマンド実行直後はローカルリポジトリだけでなく、リモートリポジトリも含んだ状態。<br>ただし、ローカルには存在しないためローカルにチェクアウトするには明示的にチェックアウトが必要。|
 |git pull|最新のリモートリポジトリブランチを取得|
