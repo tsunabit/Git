@@ -68,6 +68,13 @@ git commitコマンド実行しエディタが起動した後にコミットを�
 |git remote add|リモートリポジトリを登録|
 git remote add origin git@github.com:[ユーザー名]/[リポジトリ名]|左記コマンドを実行すると、以後originという名前(識別子)で、git@github.com:[ユーザー名]/[リポジトリ名]を指すようになる|
 
+---
+# 参考リンク
+ - GitLab workFlow http://doc.gitlab.com/ee/workflow/gitlab_flow.html
+ - Ideal Git workflow http://nvie.com/posts/a-successful-git-branching-model/
+ - Merger Request http://doc.gitlab.com/ee/gitlab-basics/add-merge-request.html
+ - Reviewing merge request on GitLab https://yalantis.com/blog/code-review-via-gitlab-merge-requests-code-review-must/
+
 
 # テンプレート
 |コマンド|説明|
