@@ -68,6 +68,16 @@ git commitコマンド実行しエディタが起動した後にコミットを�
 |git remote add|リモートリポジトリを登録|
 git remote add origin git@github.com:[ユーザー名]/[リポジトリ名]|左記コマンドを実行すると、以後originという名前(識別子)で、git@github.com:[ユーザー名]/[リポジトリ名]を指すようになる|
 
+#### 一時的に過去のコミットに戻る
+履歴を確認し，戻したいバージョンIDを確認してgit checkoutで戻す。
+```
+git checkout [git logのcommit ID]
+```
+ちゃんと過去に戻れたか確認する
+```
+git show
+```
+
 ---
 # 参考リンク
  - GitLab workFlow http://doc.gitlab.com/ee/workflow/gitlab_flow.html
